@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+* {
+    font-family: 'Secular One', sans-serif;
+}
+
+body {
+    background-color: rgb(44, 52, 68);
+    text-align: center;
+
+}
+button {
+    margin-right: 20px;
+}
+
+.s {
+    text-align: center;
+    margin-top: 420px;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.cook {
+    height: 50px;
+    width: 200px;
+    top: 490px;
+    left: 875px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+.cook:hover {
+    background-color: #E6CEA0;
+    color: white;
+}
+.ttic {
+    height: 50px;
+    width: 200px;
+    top: 490px;
+    left: 660px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+.ttic:hover {
+    background-color: rgb(125, 197, 125);
+    color: white;
+}
+.drit {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+.drit:hover:hover {
+    background-color: rgb(197, 125, 125);
+    color: white;
+}

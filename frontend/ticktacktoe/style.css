@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+* {
+    font-family: 'Secular One', sans-serif;
+}
+
+body {
+    background-color: rgb(44, 52, 68);
+}
+#t {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 350px;
+    bottom: 300px;
+    left: 800px;
+    right: 200px;
+}
+.f {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+    border: none;
+}
+#r {
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    top: 800px;
+    left: 865px;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+#r:hover {
+    background-color: rgb(185, 185, 185);
+}
+.Spieler1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-color: white;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+}
+.Spieler2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(5, 209, 5);
+    border-color: white;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+}
+ #showwinner {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 250px;
+    bottom: 250px;
+    left: 725px;
+    right: 300px;
+
+}
+.ttic {
+    position: absolute;
+    font-size: 80px;
+    top: 50px;
+    left: 750px;
+    color: white;
+}
+ul.main {
+    position: sticky;
+    text-align: left;
+    -webkit-position-: sticky;
+    padding: 0;
+    top: 0
+}
+.main li {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 4px;
+    border-radius: 2em;
+    overflow: hidden
+}
+.main li a {
+    display: block;
+    padding: .5em;
+    min-width: 1.28571429em;
+    max-width: 1.28571429em;
+    height: 1.28571429em;
+    white-space: nowrap;
+    line-height: 1.5em;
+    transition: .5s;
+    text-decoration: none;
+    color: #000
+}
+.main li i {
+    margin-right: .5em
+}
+.main li:hover a {
+    max-width: 200px;
+    padding-right: 1em
+}
+
