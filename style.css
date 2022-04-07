@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+* {
+    font-family: 'Secular One', sans-serif;
+}
+
+
+body {
+    background-size: 2000px 2000px;
+    background-color: rgb(44, 52, 68);
+    background-repeat:no-repeat;
+    
+   }
+
+@keyframes animation {
+    from {position: absolute;
+          top: 300px;
+          left: 490px;
+          width: 500px;
+          height: 500px;}
+    to {position: absolute;
+        top: 300px;
+        left: 490px;
+        width: 500px;
+        height: 500px;}
+  }
+
+
+.cookie {
+          position: absolute;
+          top: 300px;
+          left: 490px;
+          width: 500px;
+          height: 500px;
+
+    
+    
+}
+
+.cookieanimation {
+    animation-name:animation;
+    animation-duration:0.5s;
+    
+
+    
+    
+}
+
+
+.shop1 {
+    position: absolute;
+    top: 350px;
+    left: 1610px;
+    z-index:1;
+}
+
+.shop2 {
+    position: absolute;
+    top: 470px;
+    left: 1610px;
+    z-index:1;
+}
+
+.Counter {
+    position: absolute;
+    top: 50px;
+    left: 560px;
+    width: 600px;
+    height: 100px;
+    color: #fdfafa;
+    font-size: 400% 
+
+}
+
+.Preis1 {
+    position: absolute;
+    top: 475px;
+    left: 1550px;
+    width: 600px;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    font-size: 150%;
+    z-index:1;
+
+    
+}
+
+.Preis2 {
+    position: absolute;
+    top: 235px;
+    left: 1550px;
+    width: 600px;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    font-size: 300%;
+    z-index:1;
+
+    
+}
+
+.s {
+    position: absolute;
+    top: 200;
+    left: 1520px;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.b {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: white;
+    top: 21%;
+    left: 1505px;
+}
+
+
