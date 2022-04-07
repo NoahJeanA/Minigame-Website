@@ -39,6 +39,17 @@ button {
     transition: all 0.3s ease 0s;
 }
 .false:hover {
-    background-color: rgb(125, 197, 125);
+    background-color: rgb(221, 16, 16);
     color: white;
+}
+.grün{
+    color: green;
+}
+
+.rot{
+    color: red;
+}
+
+.normal{
+    color: black;
 }
