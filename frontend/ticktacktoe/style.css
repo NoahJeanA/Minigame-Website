@@ -157,3 +157,16 @@ ul.main {
     user-select: None; 
 }
 
+#draw {
+    position: absolute;
+    color: rgb(255, 145, 0);
+    top: 250px;
+    bottom: 250px;
+    left: 785px;
+    right: 300px;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
+
+}
