@@ -32,6 +32,10 @@ body {
           left: 490px;
           width: 500px;
           height: 500px;
+          -ms-user-select: None;
+          -moz-user-select: None;
+          -webkit-user-select: None;
+          user-select: None; 
 
     
     
@@ -40,6 +44,10 @@ body {
 .cookieanimation {
     animation-name:animation;
     animation-duration:0.5s;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
     
 
     
@@ -52,6 +60,10 @@ body {
     top: 350px;
     left: 1610px;
     z-index:1;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 }
 
 .shop2 {
@@ -59,6 +71,10 @@ body {
     top: 470px;
     left: 1610px;
     z-index:1;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 }
 
 .Counter {
@@ -68,7 +84,11 @@ body {
     width: 600px;
     height: 100px;
     color: #fdfafa;
-    font-size: 400% 
+    font-size: 400%;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 
 }
 
@@ -81,6 +101,10 @@ body {
     color: rgb(0, 0, 0);
     font-size: 150%;
     z-index:1;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 
     
 }
@@ -94,6 +118,10 @@ body {
     color: rgb(0, 0, 0);
     font-size: 300%;
     z-index:1;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 
     
 }
@@ -104,6 +132,12 @@ body {
     left: 1520px;
     font-size: 100px;
     color: rgb(255, 255, 255);
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
+
+    
 }
 
 .b {
@@ -114,6 +148,18 @@ body {
     background-color: white;
     top: 21%;
     left: 1505px;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
+
+}
+.a{
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
+
 }
 
 

@@ -7,10 +7,15 @@
 body {
     background-color: rgb(44, 52, 68);
     text-align: center;
+    
 
 }
 button {
     margin-right: 20px;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 }
 
 .s {
@@ -19,6 +24,11 @@ button {
     color: white;
     font-size: 50px;
     margin-bottom: 5px;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
+
 }
 .cook {
     height: 50px;
@@ -30,6 +40,11 @@ button {
     background-color: white;
     border: none;
     transition: all 0.3s ease 0s;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
+    
 }
 .cook:hover {
     background-color: #E6CEA0;
@@ -45,10 +60,21 @@ button {
     background-color: white;
     border: none;
     transition: all 0.3s ease 0s;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 }
+    
+
 .ttic:hover {
     background-color: rgb(125, 197, 125);
     color: white;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
+
 }
 .drit {
     height: 50px;
@@ -58,8 +84,18 @@ button {
     background-color: white;
     border: none;
     transition: all 0.3s ease 0s;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
+
 }
 .drit:hover:hover {
     background-color: rgb(197, 125, 125);
     color: white;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
+
 }

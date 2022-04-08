@@ -15,6 +15,10 @@ body {
     bottom: 300px;
     left: 800px;
     right: 200px;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 }
 .f {
     width: 100px;
@@ -24,6 +28,10 @@ body {
     border-radius: 10px;
     transition: 0.3s;
     border: none;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 }
 #r {
     position: absolute;
@@ -36,6 +44,10 @@ body {
     background-color: white;
     border: none;
     transition: all 0.3s ease 0s;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 }
 #r:hover {
     background-color: rgb(185, 185, 185);
@@ -48,6 +60,10 @@ body {
     border-radius: 10px;
     border: none;
     transition: 0.3s;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 }
 .Spieler2 {
     width: 100px;
@@ -57,6 +73,10 @@ body {
     border-radius: 10px;
     border: none;
     transition: 0.3s;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 }
  #showwinner {
     position: absolute;
@@ -65,6 +85,10 @@ body {
     bottom: 250px;
     left: 725px;
     right: 300px;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 
 }
 .ttic {
@@ -73,20 +97,33 @@ body {
     top: 50px;
     left: 750px;
     color: white;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 }
 ul.main {
     position: sticky;
     text-align: left;
     -webkit-position-: sticky;
     padding: 0;
-    top: 0
+    top: 0;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
+
 }
 .main li {
     background-color: rgb(255, 255, 255);
     display: inline-block;
     margin: 4px;
     border-radius: 2em;
-    overflow: hidden
+    overflow: hidden;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 }
 .main li a {
     display: block;
@@ -98,13 +135,25 @@ ul.main {
     line-height: 1.5em;
     transition: .5s;
     text-decoration: none;
-    color: #000
+    color: #000;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 }
 .main li i {
-    margin-right: .5em
+    margin-right: .5em;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 }
 .main li:hover a {
     max-width: 200px;
-    padding-right: 1em
+    padding-right: 1em;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 }
 
