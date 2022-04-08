@@ -5,8 +5,6 @@ git push (laden der lokalen der llokalen Dateien auf Git Hub)
 git clone (Herunterladen eines Repository)
 benutzt BitWarden
 
-Hallo Noah
-
 git checkout -b {Name} (Erstellt einen branch)
 git checkout {Name} (Wechselt den branch)
 git branch -a (liste aller branchs)
