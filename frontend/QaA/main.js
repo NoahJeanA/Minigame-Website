@@ -5,6 +5,52 @@ var z = 0;
 var y
 
 
+function truee(){
+    if (a==true){
+        console.log("richtig")
+        animationtrue();
+    }
+    if (a==false){
+        console.log("falsch")
+        animationfalse();
+    }
+    
+}
+
+function falsee(){
+    if (a==false){
+        console.log("richtig")
+        animationtrue();
+    }
+    if (a==true){
+        console.log("falsch")
+        animationfalse();
+    }
+}
+
+
+
+function animationtrue(){
+    document.getElementById("question").className = "grün";
+    document.getElementById("question").innerHTML = "Richtige Antwort.";
+    timeoutID = window.setTimeout(normaltrue, 1000);
+}
+function animationfalse(){
+    document.getElementById("question").className = "rot";
+    document.getElementById("question").innerHTML = "Falsche Antwort.";
+    timeoutID = window.setTimeout(normaltrue, 1000);
+   
+}
+function normalfalse(){
+    document.getElementById("question").className = "normal"; 
+    zufall();
+}
+
+function normaltrue(){
+    document.getElementById("question").className = "normal"; 
+    zufall();
+}
+
 
 window.addEventListener("load", function() {
     zufall();
@@ -124,38 +170,3 @@ function zufall(){
 
 
 
-function truee(){
-    if (a==true){
-        console.log("richtig")
-        animationtrue();
-    }
-    if (a==false){
-        console.log("falsch")
-        animationfalse();
-    }
-    
-}
-
-function falsee(){
-    if (a==false){
-        console.log("richtig")
-        animationtrue();
-    }
-    if (a==true){
-        console.log("falsch")
-        animationfalse();
-    }
-}
-
-
-
-function animationfalse(){
-    document.getElementById("question").className = "rot";
-    document.getElementById("question").innerHTML = "Falsche Antwort.";
-    timeoutID = window.setTimeout(normaltrue, 1000);
-   
-}
-function normalfalse(){
-    document.getElementById("question").className = "normal"; 
-    zufall();
-}
