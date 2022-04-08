@@ -159,7 +159,60 @@ body {
     -moz-user-select: None;
     -webkit-user-select: None;
     user-select: None; 
+}
+ul.main {
+    position: sticky;
+    text-align: left;
+    -webkit-position-: sticky;
+    padding: 0;
+    top: 0;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 
+}
+.main li {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 4px;
+    border-radius: 2em;
+    overflow: hidden;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
+}
+.main li a {
+    display: block;
+    padding: .5em;
+    min-width: 1.28571429em;
+    max-width: 1.28571429em;
+    height: 1.28571429em;
+    white-space: nowrap;
+    line-height: 1.5em;
+    transition: .5s;
+    text-decoration: none;
+    color: #000;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
+}
+.main li i {
+    margin-right: .5em;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
+}
+.main li:hover a {
+    max-width: 200px;
+    padding-right: 1em;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 }
 
 

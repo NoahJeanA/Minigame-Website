@@ -1,13 +1,9 @@
 
 var min = 1;
-<<<<<<< HEAD
+HEAD
 var max = 24;
- 
-=======
-var max = 11;
-var z = 0;
-var y
->>>>>>> 816312e96079ee9deba2a7be6e41966d44d05833
+
+
 
 window.addEventListener("load", function() {
     zufall();
@@ -169,7 +165,7 @@ function animationfalse(){
     timeoutID = window.setTimeout(normaltrue, 1000);
    
 }
-function normalfolse(){
+function normalfalse(){
     document.getElementById("question").className = "normal"; 
     zufall();
 }
