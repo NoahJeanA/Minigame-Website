@@ -1,15 +1,26 @@
 
 var min = 1;
+<<<<<<< HEAD
 var max = 24;
  
+=======
+var max = 11;
+var z = 0;
+var y
+>>>>>>> 816312e96079ee9deba2a7be6e41966d44d05833
 
 window.addEventListener("load", function() {
     zufall();
+    document.getElementById("t").addEventListener("click", truee);
+    document.getElementById("f").addEventListener("click", falsee);
 })
 
 function zufall(){
-    let x = (Math.random() * (max - min)) + min;
-    let y = Math.round(x)
+    do {
+        let x = (Math.random() * (max - min)) + min;
+        y = Math.round(x)       
+    } while (z==y)
+    z = y;
     if (y==1){
         q="Mittwald bietet viele Arten von Hosting an."
         a=true
@@ -103,7 +114,9 @@ function zufall(){
         a=true
     }
     document.getElementById("question").innerHTML = q;
+           
 }
+    
 
 
 
@@ -112,8 +125,6 @@ function zufall(){
 
 
 
-document.getElementById("t").addEventListener("click", truee);
-document.getElementById("f").addEventListener("click", falsee);
 
 
 function truee(){

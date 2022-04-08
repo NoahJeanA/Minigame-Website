@@ -57,8 +57,8 @@ body {
 
 .shop1 {
     position: absolute;
-    top: 350px;
-    left: 1610px;
+    top: 230px;
+    left: 1700px;
     z-index:1;
     -ms-user-select: None;
     -moz-user-select: None;
@@ -68,8 +68,8 @@ body {
 
 .shop2 {
     position: absolute;
-    top: 470px;
-    left: 1610px;
+    top: 380px;
+    left: 1700px;
     z-index:1;
     -ms-user-select: None;
     -moz-user-select: None;
@@ -94,12 +94,12 @@ body {
 
 .Preis1 {
     position: absolute;
-    top: 475px;
+    top: 200px;
     left: 1550px;
     width: 600px;
     height: 100px;
     color: rgb(0, 0, 0);
-    font-size: 150%;
+    font-size: 300%;
     z-index:1;
     -ms-user-select: None;
     -moz-user-select: None;
@@ -111,7 +111,7 @@ body {
 
 .Preis2 {
     position: absolute;
-    top: 235px;
+    top: 350px;
     left: 1550px;
     width: 600px;
     height: 100px;

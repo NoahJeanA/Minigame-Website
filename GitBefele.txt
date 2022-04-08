@@ -8,6 +8,3 @@ benutzt BitWarden
 git checkout -b {Name} (Erstellt einen branch)
 git checkout {Name} (Wechselt den branch)
 git branch -a (liste aller branchs)
-
-asdfasdf
-lululu
