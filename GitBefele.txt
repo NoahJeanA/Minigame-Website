@@ -4,3 +4,5 @@ git commit -m "Kommentar" (Speichrt die hinzugefügte Version und fügt einen Ko
 git push (laden der lokalen der llokalen Dateien auf Git Hub)
 git clone (Herunterladen eines Repository)
 benutzt BitWarden
+
+Hallo Noah
