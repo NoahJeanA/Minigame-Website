@@ -3,4 +3,9 @@ git add . (eigene Dateien in die lokale Git Repository hinzufügen)
 git commit -m "Kommentar" (Speichrt die hinzugefügte Version und fügt einen Kommentar hinzu)
 git push (laden der lokalen der llokalen Dateien auf Git Hub)
 git clone (Herunterladen eines Repository)
+
+git checkout -b {Name} (Erstellt einen branch)
+git checkout {Name} (Wechselt den branch)
+git branch -a (liste aller branchs)
+
 benutzt BitWarden
