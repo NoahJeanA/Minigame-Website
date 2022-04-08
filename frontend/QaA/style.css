@@ -7,8 +7,6 @@
 body {
     background-color: rgb(44, 52, 68);
     text-align: center;
-    margin-top: 370px;
-
 }
 button {
     margin-right: 20px;
@@ -18,14 +16,14 @@ button {
     user-select: None; 
 }
 .mittwald {
-    color: white;
+    color: #ffffff;
+    margin-top: 300px;
+    font-size: 50px;
 }
-
-
 .true {
     height: 50px;
     width: 200px;
-    top: 490px;
+    top: 400px;
     left: 875px;
     font-size: 20px;
     border-radius: 20px;
@@ -38,7 +36,7 @@ button {
     user-select: None; 
 }
 .true:hover {
-    background-color: rgb(125, 197, 125);
+    background-color: rgb(0, 207, 0);
     color: white;
     -ms-user-select: None;
     -moz-user-select: None;
@@ -58,7 +56,6 @@ button {
     -moz-user-select: None;
     -webkit-user-select: None;
     user-select: None; 
-    
 }
 .false:hover {
     background-color: rgb(221, 16, 16);
@@ -69,14 +66,13 @@ button {
     user-select: None; 
 }
 .grün{
-    color: rgb(125, 197, 125);
+    color: rgb(0, 207, 0);
     font-size: 30px;
     -ms-user-select: None;
     -moz-user-select: None;
     -webkit-user-select: None;
     user-select: None; 
 }
-
 .rot{
     color: red;
     font-size: 30px;
@@ -85,7 +81,6 @@ button {
     -webkit-user-select: None;
     user-select: None; 
 }
-
 .normal{
     color: white;
     font-size: 30px;
@@ -95,14 +90,12 @@ button {
     user-select: None; 
 
 }
-
 #q{
     -ms-user-select: None;
     -moz-user-select: None;
     -webkit-user-select: None;
     user-select: None; 
 }
-
 ul.main {
     position: sticky;
     text-align: left;
@@ -113,7 +106,6 @@ ul.main {
     -moz-user-select: None;
     -webkit-user-select: None;
     user-select: None; 
-
 }
 .main li {
     background-color: rgb(255, 255, 255);
@@ -156,4 +148,7 @@ ul.main {
     -moz-user-select: None;
     -webkit-user-select: None;
     user-select: None; 
+}
+#buttons button:last-of-type {
+    margin-right: 0;
 }

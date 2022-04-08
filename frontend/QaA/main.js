@@ -1,6 +1,6 @@
 
 var min = 1;
-var max = 6;
+var max = 11;
  
 
 window.addEventListener("load", function() {
@@ -11,7 +11,7 @@ function zufall(){
     let x = (Math.random() * (max - min)) + min;
     let y = Math.round(x)
     if (y==1){
-        q="Mittwald bietet viele Art von Servern an."
+        q="Mittwald bietet viele Arten von Hosting an."
         a=true
     }
     if (y==2){
@@ -36,23 +36,23 @@ function zufall(){
         a=false
     }
     if (y==7){
-        q=""
-        a=true
+        q="Mittwald hat ihre Server Unterwasser"
+        a=false
     }
     if (y==8){
-        q="Unter Wasser kann man Artmen"
+        q="DigitalCampus ist eine Skriptsprache"
         a=false
     }
     if (y==9){
-        q="100 / 10 sind 10"
-        a=true
+        q="Der Name Mittwald steht für:  Mitten im Wald"
+        a=false
     }
     if (y==10){
-        q="Du wirst die Frage richtig beantworten "
-        a=true
+        q="Das Backend lässt dir die Website mit Style etc. anzeigen"
+        a=false
     }
     if (y==11){
-        q="Das Spiel funktionirt nicht"
+        q="Frontend und Backend sind wichtig"
         a=false
     }
     document.getElementById("question").innerHTML = q;
