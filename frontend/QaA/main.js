@@ -1,6 +1,6 @@
 
 var min = 1;
-var max = 11;
+var max = 24;
  
 
 window.addEventListener("load", function() {
@@ -22,7 +22,6 @@ function zufall(){
         q="Bash ist eine Skriptsprache"
         a=true
     }
-    
     if (y==4){
         q="HTTP ist eine Programmiersprache"
         a=false
@@ -52,8 +51,56 @@ function zufall(){
         a=false
     }
     if (y==11){
-        q="Frontend und Backend sind wichtig"
+        q="sind Frontend und Backend wichtig?"
+        a=true
+    }
+    if (y==11){
+        q="TLD heißt:  Second Level Domain"
         a=false
+    }
+    if (y==12){
+        q="DNS ist wie eine Telefonauskunft des Internets"
+        a=true
+    }
+    if (y==13){
+        q="CMS heißt:  Computer Machen Spaß"
+        a=false
+    }
+    if (y==14){
+        q="TLD heißt:  Third Level Domain"
+        a=true
+    }
+    if (y==15){
+        q="Mittwald teilt eine Vision"
+        a=true
+    }
+    if (y==16){
+        q="Mittwald hat 180+ Mitarbeiter"
+        a=true
+    }
+    if (y==17){
+        q="Die meistverwendetsten CMS Systeme sind WordPress und TYPO3"
+        a=true
+    }
+    if (y==18){
+        q="Mittwald bietet CO2-neutrales Hosting an"
+        a=true
+    }
+    if (y==19){
+        q="Der Support ist von 08.30 bis 20.00 Uhr offen"
+        a=false
+    }
+    if (y==20){
+        q="DNS = Domain Name System"
+        a=true
+    }
+    if (y==21){
+        q="Mittwald startete mit der Software TYPO3"
+        a=true
+    }
+    if (y==22){
+        q="CMS Systeme erleichtern die erstellung von Webseiten"
+        a=true
     }
     document.getElementById("question").innerHTML = q;
 }
@@ -95,7 +142,7 @@ function falsee(){
 
 function animationtrue(){
     document.getElementById("question").className = "grün";
-    document.getElementById("question").innerHTML = "Das war RICHTIG";
+    document.getElementById("question").innerHTML = "Richtige Antwort!";
     timeoutID = window.setTimeout(normaltrue, 1000);
     
 }
@@ -107,7 +154,7 @@ function normaltrue(){
 
 function animationfalse(){
     document.getElementById("question").className = "rot";
-    document.getElementById("question").innerHTML = "Das war FALSCH";
+    document.getElementById("question").innerHTML = "Falsche Antwort.";
     timeoutID = window.setTimeout(normaltrue, 1000);
    
 }
