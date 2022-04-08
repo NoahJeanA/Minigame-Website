@@ -36,8 +36,6 @@ button {
 .cook {
     height: 50px;
     width: 200px;
-    top: 490px;
-    left: 875px;
     font-size: 20px;
     border-radius: 20px;
     background-color: white;
@@ -49,14 +47,11 @@ button {
     user-select: None; 
 }
 .cook:hover {
-    background-color: #b89658;
     color: white;
 }
 .ttic {
     height: 50px;
     width: 200px;
-    top: 490px;
-    left: 660px;
     font-size: 20px;
     border-radius: 20px;
     background-color: white;
@@ -68,7 +63,6 @@ button {
     user-select: None; 
 }
 .ttic:hover {
-    background-color: rgb(125, 197, 125);
     color: white;
     -ms-user-select: None;
     -moz-user-select: None;

@@ -1,6 +1,6 @@
 
 var min = 1;
-var max = 22;
+var max = 11;
 var z = 0;
 var y
 
@@ -165,7 +165,7 @@ function animationfalse(){
     timeoutID = window.setTimeout(normaltrue, 1000);
    
 }
-function normalfolse(){
+function normalfalse(){
     document.getElementById("question").className = "normal"; 
     zufall();
 }
