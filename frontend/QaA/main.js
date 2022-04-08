@@ -1,15 +1,21 @@
 
 var min = 1;
 var max = 11;
- 
+var z = 0;
+var y
 
 window.addEventListener("load", function() {
     zufall();
+    document.getElementById("t").addEventListener("click", truee);
+    document.getElementById("f").addEventListener("click", falsee);
 })
 
 function zufall(){
-    let x = (Math.random() * (max - min)) + min;
-    let y = Math.round(x)
+    do {
+        let x = (Math.random() * (max - min)) + min;
+        y = Math.round(x)       
+    } while (z==y)
+    z = y;
     if (y==1){
         q="Mittwald bietet viele Arten von Hosting an."
         a=true
@@ -22,7 +28,6 @@ function zufall(){
         q="Bash ist eine Skriptsprache"
         a=true
     }
-    
     if (y==4){
         q="HTTP ist eine Programmiersprache"
         a=false
@@ -56,7 +61,9 @@ function zufall(){
         a=false
     }
     document.getElementById("question").innerHTML = q;
+           
 }
+    
 
 
 
@@ -65,8 +72,6 @@ function zufall(){
 
 
 
-document.getElementById("t").addEventListener("click", truee);
-document.getElementById("f").addEventListener("click", falsee);
 
 
 function truee(){
