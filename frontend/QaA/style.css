@@ -11,6 +11,10 @@ body {
 }
 button {
     margin-right: 20px;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 }
 .true {
     height: 50px;
@@ -22,10 +26,18 @@ button {
     background-color: white;
     border: none;
     transition: all 0.3s ease 0s;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 }
 .true:hover {
     background-color: rgb(125, 197, 125);
     color: white;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 }
 .false {
     height: 50px;
@@ -37,10 +49,19 @@ button {
     background-color: white;
     border: none;
     transition: all 0.3s ease 0s;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
+    
 }
 .false:hover {
     background-color: rgb(221, 16, 16);
     color: white;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
 }
 .grün{
     color: green;
