@@ -1,8 +1,9 @@
 
 var min = 1;
-var max = 11;
+var max = 24;
 var z = 0;
 var y
+
 
 
 window.addEventListener("load", function() {
@@ -146,17 +147,6 @@ function falsee(){
     }
 }
 
-
-function animationtrue(){
-    document.getElementById("question").className = "grün";
-    document.getElementById("question").innerHTML = "Richtige Antwort!";
-    timeoutID = window.setTimeout(normaltrue, 1000);
-    
-}
-function normaltrue(){
-    document.getElementById("question").className = "normal"; 
-    zufall();
-}
 
 
 function animationfalse(){
