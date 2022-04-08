@@ -1,6 +1,6 @@
 
 var min = 1;
-var max = 12;
+var max = 6;
  
 
 window.addEventListener("load", function() {
@@ -11,32 +11,32 @@ function zufall(){
     let x = (Math.random() * (max - min)) + min;
     let y = Math.round(x)
     if (y==1){
-        q="Das Spiel funktionirt"
+        q="Mittwald bietet viele Art von Servern an."
         a=true
     }
     if (y==2){
-        q="Wir sind gerade in Afrika"
+        q="Im Kundencenter kann man keine Domain anlegen."
         a=false
     }
     if (y==3){
-        q="Bash ist eine Sprach"
+        q="Bash ist eine Skriptsprache"
         a=true
     }
     
     if (y==4){
-        q="100/5 sind 25"
+        q="HTTP ist eine Programmiersprache"
         a=false
     }
     if (y==5){
-        q="Deutschland ist ein Land"
+        q="Es gibt viele Teams bei Mittwald"
         a=true
     }
     if (y==6){
-        q="Es war noch nie jemand auf dem Mond"
+        q="Mittwald wurde 1999 gegründet"
         a=false
     }
     if (y==7){
-        q="Mir fallen keine Aussage mehr ein"
+        q=""
         a=true
     }
     if (y==8){
