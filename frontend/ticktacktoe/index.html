@@ -8,11 +8,21 @@
     <title>tTicTacToe</title>
 </head>
 <body>
+    <audio id=clickaudio>
+        <source src="/home/noah/newticktacktoe/sounds/clicksound.mp3" type="audio/mpeg">
+        <source src="/home/noah/newticktacktoe/sounds/clicksound.ogg" type="audio/ogg">
+    </audio>
+
+    <audio id=winaudio>
+        <source src="/home/noah/newticktacktoe/sounds/winsound.mp3" type="audio/mpeg">
+        <source src="/home/noah/newticktacktoe/sounds/winsound.ogg" type="audio/ogg">
+    </audio>
+
     <script .language="javascript" type="text/javascript" src="main.js"></script>
-<display id="display">
-    <h1 id="showwinner"></h1>
-    <h1 id="draw"></h1>
-</display>
+    <display id="display">
+        <h1 id="showwinner"></h1>
+        <h1 id="draw"></h1>
+    </display>
     <table id="t">
         <tr>
             <td><button id="a1" class="f"></button>
